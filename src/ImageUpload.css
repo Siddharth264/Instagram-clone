@@ -1,0 +1,42 @@
+.imageupload {
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+    margin-left: 15%;
+    margin-right: 5%;
+    margin-top: 10px;
+    margin-bottom: 80px;
+    padding: 20px;
+    border:1px solid black;
+}
+
+.imageupload__progressBar {
+    width : 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.imageupload__text {
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.imageupload__file {
+    padding: 5px;
+    margin-bottom: 5px;
+}
+
+.Upload {
+    border:1px solid black;
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    margin-bottom: 10px;
+    background-color:  #adebad;
+    color:  #80aaff;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.imageupload {
+    background-color: #99ccff;
+}

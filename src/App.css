@@ -1,38 +1,82 @@
-.App {
-  text-align: center;
+* {
+  max-width: 600px;
+  margin: 0;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.app__header {
+  position: sticky;
+  top: 0;
+  z-index: 1;
+  background-color: white;
+  object-fit: contain;
+  padding: 20px;
+  border-bottom: 1px solid lightgrey;
+  display: flex;
+  justify-content: space-between;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.app {
+  background-color: #fafafa;
+  height: 100%;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.app__headerImage {
+  object-fit: contain;
+}
+.app__signUp {
   display: flex;
   flex-direction: column;
-  align-items: center;
+}
+
+.app_posts {
+  padding: 20px;
+}
+
+.userdetails {
+  font-size: 22px;
+  font-weight: normal;
+  font-family: 'Grandstander', cursive;
+  display: flex;
+  justify-content: space-between;
+  padding-left: 20px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  object-fit: contain;
+  border-bottom: 1px solid rgb(206, 176, 176);
+  background-color: white;
+
+}
+
+.loginmessage {
+  display: flex;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  border-bottom: 1px solid rgb(206, 176, 176);
+  background-color: white;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  object-fit: contain;
+
 }
 
-.App-link {
-  color: #61dafb;
+.upload__message {
+  padding: 20px;
+  margin-bottom: 20px;
+  margin-left: 100px;
+  margin-right: 100px;
+  border: 1px solid black;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.usernameandavatar {
+  display: flex;
+}
+
+.scrollToBottom {
+  padding-right: 10px;
+}
+
+.user__Avatar {
+  padding: 5px;
+}
+
+.user__Username {
+  padding-left: 10px;
 }
