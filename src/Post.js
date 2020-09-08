@@ -80,7 +80,7 @@ function Post({ postId, user,  username, caption, imageUrl}) {
             {/* header -> avatar + username*/}
                 </div>
                     <div className="deletebutton">
-                        <Button disabled={user.displayName!==username} variant="contained" color="secondary" className={classes.button} onClick={deletePost} startIcon={<DeleteIcon />}>Delete</Button>
+                        <Button disabled={user.displayName!==username} variant="contained" color="secondary" className={classes.button} onClick={deletePost} endIcon={<DeleteIcon />}>Delete</Button>
                     </div>
                 </div>
 

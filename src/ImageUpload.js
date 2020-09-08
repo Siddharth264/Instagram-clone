@@ -76,6 +76,7 @@ function ImageUpload({username}) {
             <input className="imageupload__file" type="file" onChange={handleChange}  />
             <Button
             onClick={handleUpload}
+            disabled={!caption}
             variant="contained"
             color="default"
             className={classes.button}
