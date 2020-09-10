@@ -68,8 +68,13 @@
 
 .avatarUsername {
     display: flex;
+    justify-content: space-between;
 }
 
 .username_text {
     padding: 5px;
 }
+
+.deletebutton {
+   margin-left: 200px;
+  }

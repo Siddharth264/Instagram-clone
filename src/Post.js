@@ -78,11 +78,20 @@ function Post({ postId, user,  username, caption, imageUrl}) {
                     <h3 className="username_text">{username}</h3>
 
             {/* header -> avatar + username*/}
-                </div>
+            <div>            
+            {
+                user!= null ? (
                     <div className="deletebutton">
                         <Button disabled={user.displayName!==username} variant="contained" color="secondary" className={classes.button} onClick={deletePost} endIcon={<DeleteIcon />}>Delete</Button>
                     </div>
-                </div>
+                ):(
+                    <div></div>
+                )
+            }
+            </div>
+        </div>
+                    
+            </div>
 
             <img className="post__Image" src={imageUrl} alt="Jst-a-random-pic" />
             {/* image  */}
